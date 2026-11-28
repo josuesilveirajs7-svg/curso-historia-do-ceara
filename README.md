@@ -1,22 +1,28 @@
 # Ceará: Terra e Gente — Curso de História do Ceará
 
 Curso aberto de história do Ceará, dos povos originários aos dias de hoje.
-4 trilhas × 4 níveis × 3 módulos × 3 aulas (144 aulas), com quiz, glossário, linha do tempo e progresso salvo no aparelho.
+5 trilhas e 168 aulas, com quiz, glossário, linha do tempo, buscador de bairros de Fortaleza e Maracanaú e progresso salvo no aparelho.
 
 Desenvolvido por **Josué Silveira**.
 
-## Estado atual: curso completo (v8)
+## Estado atual (v9)
 
-- As 4 trilhas completas: 48 módulos, 144 aulas e 16 projetos
+- 5 trilhas: 56 módulos, 168 aulas e 20 projetos
   - Trilha 1 · Terra e povos (antes de 1500 até 1799)
   - Trilha 2 · Província e Império (1799–1889)
   - Trilha 3 · República, sertão e fé (1889–1964)
   - Trilha 4 · Ceará contemporâneo (1964 até hoje)
+  - Trilha 5 · Fortaleza e Maracanaú (do forte de 1649 aos 300 anos), com 24 aulas sobre a capital,
+    seus bairros e a cidade vizinha
+- **Buscador de bairros** (`#bairros`): os 121 bairros de Fortaleza (regional, território, população e
+  IDH de 2010, nomes antigos, história e link para a ficha oficial) e 40 bairros de Maracanaú.
+  Filtro por regional ou tema, busca por nome atual ou antigo, ligação com as aulas.
 - Cada aula: objetivo, explicação, quiz de 5 questões com comentário, exercício e fontes
 - Cada módulo: seção “Aprofundar” com vídeos, leituras grátis e livros
-- Glossário com 62 termos, linha do tempo, busca, tema claro/escuro e progresso salvo no aparelho
+- Glossário com 71 termos, linha do tempo em ordem cronológica, busca (inclui bairros), tema claro/escuro e progresso salvo no aparelho
 - Termos de Uso e Política de Privacidade (LGPD), dentro do app e em páginas próprias
 - Botão “Apagar meu progresso” na página de Privacidade
+- Alternativas dos quizzes embaralhadas de forma fixa (antes, a resposta certa caía na letra B em 69% das questões); respostas já salvas são convertidas automaticamente
 - Funciona como app (PWA): instala no celular e abre sem internet
 
 ## Arquivos
@@ -58,6 +64,6 @@ Desenvolvido por **Josué Silveira**.
 ## Atualizar o curso depois
 
 1. Substitua o `index.html` (e, se mudarem, `termos.html` e `privacidade.html`) pelo novo.
-2. No `sw.js`, mude a linha `const CACHE = 'terra-e-gente-v8';` para um número novo
-   (por exemplo, `terra-e-gente-v9`). Isso faz os celulares baixarem a versão nova.
+2. No `sw.js`, mude a linha `const CACHE = 'terra-e-gente-v9';` para um número novo
+   (por exemplo, `terra-e-gente-v10`). Isso faz os celulares baixarem a versão nova.
 3. Envie os dois arquivos para o GitHub. O progresso dos alunos fica salvo no aparelho e não se perde.
