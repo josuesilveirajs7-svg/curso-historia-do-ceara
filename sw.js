@@ -1,6 +1,6 @@
 /* Service worker: guarda o curso para funcionar sem internet.
    A cada nova entrega, mude CACHE para forçar a atualização no aparelho. */
-const CACHE = 'terra-e-gente-v8';
+const CACHE = 'terra-e-gente-v9';
 const FILES = ['./', './index.html', './termos.html', './privacidade.html', './manifest.webmanifest', './icons/favicon.svg',
   './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png', './icons/apple-touch-icon.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });
